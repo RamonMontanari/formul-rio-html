@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    box-sizing: border-box;
+    color: #3F3D56;
+    font-family: 'Roboto', sans-serif; 
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 14px;    
+}    
+
+.container {
+    width: 396px;
+}
+
+.title {
+    font-size: 37px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 68px;
+    margin-bottom: 22px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;  
+}
+
+.large-input {
+    padding: 12px 0 11px 14px;
+    width: 396px;
+    height: 47px;
+    margin-top:4px;
+    margin-bottom: 24px;
+}
+
+.wrapper-date-and-country {
+    display: flex;
+    justify-content: space-between;      
+    margin-bottom: 22px;
+}
+
+.small-input{
+    padding: 12px 0 11px 14px;
+    width: 170px;
+    height: 47px;
+    margin-top: 9px;
+}
+
+select.small-input {
+    padding: 12px 0 11px 14px;
+    width: 208px;
+    height: 47px;
+}
+
+.box-genres {
+    margin: 9px 0 23px;
+    display: flex;
+    justify-content: space-between;   
+    align-items: center;
+}
+
+.box-radio input {
+    margin-right: 6px;
+}
+
+.wrapper-check-box {
+    display: flex;
+    margin-top: 4px;    
+}
+
+.check {
+    margin-left: 10px;
+}
+
+.button {
+    color: #FFFFFF;
+    background-color: #3F3D56;
+    color: white;
+    font-size: 16px;
+    height: 47px;
+    width: 396px;
+    left: 0px;
+    top: 0px;
+    border-radius: 5px;  
+    margin: 28px 0 28px 0;
+}
+
+.enter-now {
+    text-align: center;
+    margin-bottom: 174px;
+}
