@@ -7,6 +7,10 @@
     font-family: 'Roboto', sans-serif; 
 }
 
+input { 
+    border: 1px solid #ABB3A8;
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -66,13 +70,24 @@ select.small-input {
     align-items: center;
 }
 
+.box-radio {
+    display: flex;
+    align-items: center;    
+}
 .box-radio input {
     margin-right: 6px;
+    width: 18px;
+    height: 18px;
 }
 
 .wrapper-check-box {
     display: flex;
     margin-top: 4px;    
+}
+
+.label-genre {
+    display: block;
+    margin-bottom: 8px !important;
 }
 
 .check {
